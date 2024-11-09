@@ -1,0 +1,2 @@
+PKG_LIBS = -llapack -lblas -lgfortran -lquadmath
+CXXFLAGS = -O2 -Wall
