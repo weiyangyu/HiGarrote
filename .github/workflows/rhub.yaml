@@ -3,10 +3,11 @@ name: R-hub Checks
 on:
   push:
     branches:
-      - main
+      - master  # Specify your branch name here
   pull_request:
     branches:
       - '*'
+  workflow_dispatch: # Allow manual triggering of the workflow
 
 jobs:
   rhub:
